@@ -1,0 +1,519 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sbell/ontologies/2017/3/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sbell/ontologies/2017/3/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/sbell/ontologies/2017/3/untitled-ontology-3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.bioassayontology.org/bao/bao_complete.owl</Import>
+    <Declaration>
+        <Class IRI="#estrogen_receptor_pathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye_Irritation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oral_Toxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#androgen_receptor_pathway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hCLAT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transactivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dermal_Toxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#in_silico_assay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical_Binding_to_Estrogen_Receptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keratinocyte_inflannatiry_responses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dimerization_of_Estrogen_Receptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LLNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inhallation_Toxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activation_of_dendritic_cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Covalent_interaction_with_skin_proteins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estrogen_Disruption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Androgen_Disruption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye_Corrosion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uterine_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EPA_Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decrease_uterine_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toxicity_Endpoints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Binding_of_Estrogen_Receptor_to_Response_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change_in_Uterine_Weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#in_vivo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_toxicity_endpoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_assay_endpoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Steroidogenesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uterotrophic_Assay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herschberger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AC50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#androgen_antagonist_transactivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inflammation_upon_challenge_with_allergen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proliferation_of_activated_T_cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KeyEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Increase_uterine_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acute_Toxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#androgen_agonist_transactivation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_assay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acute_oral_toxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activation_of_Estrogen_Receptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KeratinoSens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skin_Irritation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LD50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DPRA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GHS_Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocrine_Disruption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skin_Sensitization"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AC50"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activation_of_Estrogen_Receptor"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activation_of_dendritic_cells"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acute_Toxicity"/>
+        <Class IRI="#Toxicity_Endpoints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acute_oral_toxicity"/>
+        <Class IRI="#in_vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acute_oral_toxicity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Oral_Toxicity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Androgen_Disruption"/>
+        <Class IRI="#Endocrine_Disruption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binding_of_Estrogen_Receptor_to_Response_Element"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change_in_Uterine_Weight"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change_in_Uterine_Weight"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay"/>
+            <Class IRI="#Uterine_weight"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Binding_to_Estrogen_Receptor"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Covalent_interaction_with_skin_proteins"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Covalent_interaction_with_skin_proteins"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay"/>
+            <Class IRI="#DPRA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DPRA"/>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0002804"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DPRA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Skin_Sensitization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease_uterine_weight"/>
+        <Class IRI="#Estrogen_Disruption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease_uterine_weight"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay"/>
+            <Class IRI="#Uterotrophic_Assay"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dermal_Toxicity"/>
+        <Class IRI="#Acute_Toxicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dimerization_of_Estrogen_Receptor"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EPA_Classification"/>
+        <Class IRI="#Acute_oral_toxicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endocrine_Disruption"/>
+        <Class IRI="#Toxicity_Endpoints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrogen_Disruption"/>
+        <Class IRI="#Endocrine_Disruption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye_Corrosion"/>
+        <Class IRI="#Toxicity_Endpoints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye_Irritation"/>
+        <Class IRI="#Toxicity_Endpoints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GHS_Classification"/>
+        <Class IRI="#Acute_oral_toxicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herschberger"/>
+        <Class IRI="#in_vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herschberger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Androgen_Disruption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase_uterine_weight"/>
+        <Class IRI="#Estrogen_Disruption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase_uterine_weight"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay"/>
+            <Class IRI="#Uterotrophic_Assay"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inflammation_upon_challenge_with_allergen"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhallation_Toxicity"/>
+        <Class IRI="#Acute_Toxicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KeratinoSens"/>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0002661"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keratinocyte_inflannatiry_responses"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keratinocyte_inflannatiry_responses"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay"/>
+            <Class IRI="#KeratinoSens"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LD50"/>
+        <Class IRI="#Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LLNA"/>
+        <Class IRI="#in_vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oral_Toxicity"/>
+        <Class IRI="#Acute_Toxicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proliferation_of_activated_T_cells"/>
+        <Class IRI="#KeyEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skin_Irritation"/>
+        <Class IRI="#Toxicity_Endpoints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skin_Sensitization"/>
+        <Class IRI="#Toxicity_Endpoints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steroidogenesis"/>
+        <Class IRI="#Endocrine_Disruption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uterine_weight"/>
+        <Class IRI="#Uterotrophic_Assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uterotrophic_Assay"/>
+        <Class IRI="#in_vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uterotrophic_Assay"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay"/>
+            <Class IRI="#Uterotrophic_Assay"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uterotrophic_Assay"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Estrogen_Disruption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#androgen_agonist_transactivation"/>
+        <Class IRI="#transactivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#androgen_agonist_transactivation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Androgen_Disruption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#androgen_antagonist_transactivation"/>
+        <Class IRI="#transactivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#androgen_antagonist_transactivation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Androgen_Disruption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#androgen_receptor_pathway"/>
+        <Class IRI="#in_silico_assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#androgen_receptor_pathway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay_endpoint"/>
+            <Class IRI="#AC50"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#androgen_receptor_pathway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Androgen_Disruption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#estrogen_receptor_pathway"/>
+        <Class IRI="#in_silico_assay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#estrogen_receptor_pathway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_assay_endpoint"/>
+            <Class IRI="#AC50"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#estrogen_receptor_pathway"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_toxicity_endpoint"/>
+            <Class IRI="#Estrogen_Disruption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hCLAT"/>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0000378"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#in_silico_assay"/>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#in_vivo"/>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0002189"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transactivation"/>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0003006"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Activation_of_Estrogen_Receptor"/>
+        <Class IRI="#Binding_of_Estrogen_Receptor_to_Response_Element"/>
+        <Class IRI="#Change_in_Uterine_Weight"/>
+        <Class IRI="#Chemical_Binding_to_Estrogen_Receptor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Acute_Toxicity"/>
+        <Class IRI="#Endocrine_Disruption"/>
+        <Class IRI="#Eye_Corrosion"/>
+        <Class IRI="#Eye_Irritation"/>
+        <Class IRI="#Skin_Irritation"/>
+        <Class IRI="#Skin_Sensitization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Androgen_Disruption"/>
+        <Class IRI="#Estrogen_Disruption"/>
+        <Class IRI="#Steroidogenesis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dermal_Toxicity"/>
+        <Class IRI="#Inhallation_Toxicity"/>
+        <Class IRI="#Oral_Toxicity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EPA_Classification"/>
+        <Class IRI="#GHS_Classification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Herschberger"/>
+        <Class IRI="#Uterotrophic_Assay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#androgen_agonist_transactivation"/>
+        <Class IRI="#androgen_antagonist_transactivation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#androgen_receptor_pathway"/>
+        <Class IRI="#estrogen_receptor_pathway"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_assay"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_toxicity_endpoint"/>
+        <ObjectProperty IRI="#has_assay"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_toxicity_endpoint"/>
+        <ObjectProperty IRI="#has_toxicity_endpoint"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KeyEvents</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">These are the key events (including the MIE and AOPs)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#in_silico_assay</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Computational models designed to predict some biolgocal endpoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <IRI>#has_toxicity_endpoint</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
