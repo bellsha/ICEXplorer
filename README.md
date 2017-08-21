@@ -1,2 +1,2 @@
 # ICEXplorer
-Contains the ontology used in ICE and workflows for overlaying ICE data in AOPXplorer
+Contains the ontology used in ICE and workflows for overlaying ICE data in AOPXplorer. Files being updated soon.
